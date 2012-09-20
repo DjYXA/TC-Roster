@@ -27,33 +27,33 @@ echo "<link href='css/style.css' rel='stylesheet' type='text/css' />";
 echo "</head>";
 echo "<table align=center cellpadding='1' cellspacing='1'  border='1' bordercolor='#000000'>";
 echo "<tr>";
-echo "<td class='even'><a href='realm_characters.php?&order=char_name&sorting=",$sort,"'><img src='images/base/character.png' border='0'/></a><p></td>";
+echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_name&sorting=",$sort,"'><img src='images/base/character.png' border='0'/></a></td>";
 if($rc_column_guild == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=guild_name&sorting=",$sort,"'><center><img src='images/base/guild.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=guild_name&sorting=",$sort,"'><center><img src='images/base/guild.png' border='0'/></center></a></td>";}
 if($rc_column_race == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_race&sorting=",$sort,"'><center><img src='images/base/race.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_race&sorting=",$sort,"'><center><img src='images/base/race.png' border='0'/></center></a></td>";}
 if($rc_column_class == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_class&sorting=",$sort,"'><center><img src='images/base/class.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_class&sorting=",$sort,"'><center><img src='images/base/class.png' border='0'/></center></a></td>";}
 if($rc_column_level == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_level&sorting=",$sort,"'><center><img src='images/base/level.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_level&sorting=",$sort,"'><center><img src='images/base/level.png' border='0'/></center></a></td>";}
 if($rc_column_online == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_online&sorting=",$sort,"'><center><img src='images/base/online.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_online&sorting=",$sort,"'><center><img src='images/base/online.png' border='0'/></center></a></td>";}
 if($rc_column_arenapts == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_arenapts&sorting=",$sort,"'><center><img src='images/base/arenapoints.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_arenapts&sorting=",$sort,"'><center><img src='images/base/arenapoints.png' border='0'/></center></a></td>";}
 if($rc_column_totalhonor == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_totalhonor&sorting=",$sort,"'><center><img src='images/base/honorpoints.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_totalhonor&sorting=",$sort,"'><center><img src='images/base/honorpoints.png' border='0'/></center></a></td>";}
 if($rc_column_todayhonor == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_todayhonor&sorting=",$sort,"'><center><img src='images/base/todayhonor.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_todayhonor&sorting=",$sort,"'><center><img src='images/base/todayhonor.png' border='0'/></center></a></td>";}
 if($rc_column_yesthonor == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_yesthonor&sorting=",$sort,"'><center><img src='images/base/yesterdayhonor.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_yesthonor&sorting=",$sort,"'><center><img src='images/base/yesterdayhonor.png' border='0'/></center></a></td>";}
 if($rc_column_totalkills == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_totalkills&sorting=",$sort,"'><center><img src='images/base/totalkills.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_totalkills&sorting=",$sort,"'><center><img src='images/base/totalkills.png' border='0'/></center></a></td>";}
 if($rc_column_todaykills == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_todaykills&sorting=",$sort,"'><center><img src='images/base/todaykills.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_todaykills&sorting=",$sort,"'><center><img src='images/base/todaykills.png' border='0'/></center></a></td>";}
 if($rc_column_yestkills == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_yestkills&sorting=",$sort,"'><center><img src='images/base/yesterdaykills.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_yestkills&sorting=",$sort,"'><center><img src='images/base/yesterdaykills.png' border='0'/></center></a></td>";}
 if($rc_column_pvprank == 1){
-    echo "<td class='even'><a href='realm_characters.php?&order=char_totalkills&sorting=",$sort,"'><center><img src='images/base/pvprank.png' border='0'/></center></a><p></td>";}
+    echo "<td background='images/base/cell.png'><a href='realm_characters.php?&order=char_totalkills&sorting=",$sort,"'><center><img src='images/base/pvprank.png' border='0'/></center></a></td>";}
 echo "</tr>";
 
 //Query Data
