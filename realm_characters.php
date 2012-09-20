@@ -104,7 +104,7 @@ if($char_class == 11){
 
 ////Guild Name
 if($rc_column_guild == 1){
-    echo "<td><center><font color=#FFFFFF>",$guild_name,"</font></center></td>";}
+    echo "<td><center><a href='guild_characters.php?guild_id=",$guild_id,"&order=char_name&sorting=desc'><font color=#FFFFFF>",$guild_name,"</font></center></td>";}
 
 ////Character Race
 if($rc_column_race == 1){
