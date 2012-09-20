@@ -39,6 +39,7 @@ $gc_column_yesthonor    = "1";    //Yesterday Honor
 $gc_column_totalkills   = "1";    //Total Kills
 $gc_column_todaykills   = "1";    //Today Kills
 $gc_column_yestkills    = "1";    //Yesterday Kills
+$gc_column_pvprank      = "1";    //PvP Rank
 
 //PvP Rank Configuration
 $pvp_rank01 = "1";
